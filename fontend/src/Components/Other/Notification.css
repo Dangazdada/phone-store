@@ -1,0 +1,26 @@
+.notification {
+    position: fixed;
+    top: 20px; /* Điều chỉnh khoảng cách từ trên xuống */
+    right: 20px; /* Điều chỉnh khoảng cách từ phải sang */
+    padding: 15px;
+    background-color: #f44336; /* Màu nền của thông báo */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999; /* Đảm bảo thông báo luôn hiển thị trên cùng */
+    max-width: 300px; /* Điều chỉnh chiều rộng tối đa của thông báo */
+  }
+  
+  .notification.success {
+    background-color: #4caf50;
+  }
+  
+  .notification.error {
+    background-color: #f44336;
+  }
+  
+  .notification p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

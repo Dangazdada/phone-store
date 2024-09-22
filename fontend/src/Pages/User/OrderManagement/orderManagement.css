@@ -1,0 +1,179 @@
+.body_orderStatus{
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.title_orderStatus{
+    /* margin-top: 30px; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title_orderStatus h2{
+    margin-top: 20px;
+    background:linear-gradient(rgb(248, 62, 96), rgb(254, 80, 72)) 0% 0% / cover;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+.order-status-buttons__order {
+	display: flex;
+    
+  }
+  
+  .order-status-button__order {
+	background-color: #ccc;
+	border: none;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+	outline: none;
+	width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .order-status-button__order.selected {
+	background-color: #d34656;
+	color: white;
+  }
+
+  .invoice-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .purchase-date_invoice {
+    margin-left: 4%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .invoicedetail-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-details_invoice{
+    width: 16%;
+    padding: 1%;
+    margin-right: 1%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  .Anh_invoice_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .Anh_invoice_detail img{
+    width: 75%;
+  }
+  .product-name_invoicedetail{
+    margin-top: 2%;
+    font-weight: 700;
+    margin-bottom: 1%;
+    margin-left: 2%;
+  }
+  .product-price_invoicedetail{
+    color: red;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-left: 2%;
+  }
+  .product-quantity_invoicedetail{
+    color: rgb(0, 132, 255);
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-left: 2%;
+  }
+  .Setkhungmau_tongtien{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .total-amount_invoice{
+    width: 50%;
+    margin-top: 2%;
+    text-align: center;
+    color: red;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .Setkhungmau_address{
+    margin-top: 2%;
+    width: 60%;
+    padding:1%;
+    margin-left:2%;
+    background-color:rgb(222, 214, 214);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .set_Nuthuy_sanphaminvoice{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .Nuthuy_sanphaminvoice{
+    color: black;
+    background: rgb(210, 202, 202);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 35px;
+  }
+  .Nuthuy_sanphaminvoice:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 191, 255);
+  }
+  .Danhgia_productdetauil_invoice{
+    margin-left: 55%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 45%;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 1, 1);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .huyDanhgia_productdetauil_invoice{
+    margin-left: 55%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 45%;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background: rgb(119, 114, 114);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

@@ -1,0 +1,126 @@
+.hosomeber_info{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Formhosomember_info{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+.formmember_info{
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: rgb(134, 188, 247);
+    padding: 10px 20px 10px 20px;
+}
+.Nameformmerber{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.left_namemember{
+    width: 50%;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+}
+.left_namemember input{
+    width: 80%;
+    height: 40px;
+    justify-content: left;
+    text-align: left;
+    border: none;
+    border-radius: 20px;
+    padding: 0 25px;
+}
+.left_namemember input:hover{
+    background-color: rgb(244, 239, 239);
+}
+.left_namemember span{
+    margin-top: 8px;
+    margin-left: -30px;
+}
+.right_namemember {
+    margin-left: 30px;
+    width: 50%;
+    justify-content: right;
+    text-align: left;
+}
+.right_namemember input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    justify-content: left;
+    text-align: left;
+    border-radius: 20px;
+    padding: 0 25px;
+    
+}
+.right_namemember input:hover{
+    background-color: rgb(244, 239, 239);
+}
+.right_namemember span{
+    justify-content: right;
+    margin-top: 8px;
+    margin-left: -30px;
+}
+
+.Input_formmerber{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Input_formmerber input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    justify-content: left;
+    text-align: left;
+    border-radius: 20px;
+    padding: 0 25px;
+    
+}
+.Input_formmerber input:hover{
+    background-color: rgb(244, 239, 239);
+}
+.Input_formmerber span{
+    justify-content: right;
+    margin-top: 8px;
+    margin-left: -30px;
+}
+.chinhsuameber_info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnoflogin_member{
+    margin-top: 30px;
+    width: 30%;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.btnoflogin_member:hover{
+    background-color: rgb(210, 62, 62);
+    color: white;
+    font-size: 16px;
+}
+
+.forget__login_member a{
+    color: white;
+}
+.forget__login_member a:hover{
+    color: red;
+}

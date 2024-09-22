@@ -1,0 +1,43 @@
+.ant-layout{
+    min-height: 97vh;
+    
+}
+
+.ant-layout-content{
+    min-height: 80vh;
+    max-height: 80vh !important;
+    overflow: auto;
+}
+.btn-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 10px;
+   
+}
+.btn-ant{
+    height: 10px;
+    margin-top: 35px;
+    size:20px !important;
+}
+.ant-layout-header{
+    height: 100px !important;
+}
+.ant-btn-icon{
+    width: 40px !important;
+}
+.admin-text {
+    display: block; /* Hiển thị dưới avatar */
+    font-weight: bold; /* Định dạng nội dung với font-weight là bold */
+    margin-left: -55px; /* Để tạo khoảng cách giữa avatar và văn bản */
+    font-size: 14px; /* Kích thước phù hợp với văn bản */
+    margin-top: 10px;
+    height: 10px;
+  }
+.ant-layout span .anticon svg {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 10px !important;
+}
+  

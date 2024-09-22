@@ -1,0 +1,81 @@
+.banglienhe {
+	border-collapse: collapse;
+	margin: 50px;
+	width: 90%;
+	height: 100%;
+	font-size: 14px;
+}
+
+.header-table_1222 .abaohanh {
+	display: block;
+	margin-left: 5px;
+	padding: 10px 0;
+	transition-duration: .2s; 
+}
+
+.header-table_1222 .abaohanh:hover {
+	color: red;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+/* những tr chẵn sẽ có màu khác */
+
+
+.header-table marquee {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	background: #0C9;
+}
+
+.col1_1 {
+	text-align: center;
+	width: 3%;
+	height: 30px;
+}
+
+.col2_1 {
+	padding-left: 10px;
+	width: 52%;
+}
+
+.col3_1 {
+	padding-left: 10px;
+	width: 20%
+}
+
+.col4_1 {
+	padding-left: 20px;
+	width: 15%;
+}
+
+.scrolling-text {
+	background-color: #0C9;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	box-sizing: border-box;
+	border: 1px solid #ccc; /* Optional: Add border for visibility */
+	padding: 10px; /* Optional: Add padding for better appearance */
+  }
+  
+  .scrolling-text span {
+	display: inline-block;
+	font-size: 25px;
+	color: white;
+	padding-left: 100%;
+	animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+  }

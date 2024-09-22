@@ -1,0 +1,33 @@
+.tableBlock{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+     margin-top:20px;
+
+}
+.tableLabel {
+    border: 1px solid black;
+    padding: 8px;
+ 
+
+}
+.tableContent{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+ 
+
+}
+.chartBlock{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+
+}
+

@@ -1,0 +1,71 @@
+footer .Footer_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .Footer_bg {
+    background: #ce3749;
+    border-radius: 11px;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+}
+
+footer .Footer_bg .Footer_col-content {
+    display: flex;
+}
+
+footer .Footer_bg .Footer_col-content>div {
+    flex-direction: column;
+    width: 16.6666%;
+}
+
+footer .Footer_bg .Footer_col-content h4 {
+    font-size: 15px;
+    margin: 10px 0 6px 0;
+}
+
+footer .Footer_bg .Footer_ul li {
+    margin-bottom: 3px;
+}
+
+footer .Footer_bg a,
+footer .Footer_bg a:link,
+footer .Footer_bg a:visited {
+    color: #ddd;
+}
+
+footer .Footer_bg a:hover {
+    color: #fff;
+}
+footer .Footer_bg ul{
+    list-style: none;
+}
+footer .Footer_bg ul.Footer_list-logo li img {
+    margin-right: 4px;
+}
+
+footer .Footer_bg .Footer_hotline {
+    display: inline-block;
+    padding: 6px 10px;
+    background: #fff;
+    border-radius: 4px;
+    color: #ce3749;
+}
+
+footer .Footer_bg a.Footer_hotline,
+footer .Footer_bg a.Footer_hotline:link,
+footer .Footer_bg a.Footer_hotline:visited {
+    color: #ce3749;
+    font: Bold 18px/18px -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+footer .Footer_info {
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer .Footer_info p {
+    margin: 0 0 5px 0;
+    font-size: 9pt;
+}

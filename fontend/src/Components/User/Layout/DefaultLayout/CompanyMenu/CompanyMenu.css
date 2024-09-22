@@ -1,0 +1,304 @@
+.companyMenu {
+	margin: 10px 0 30px; 
+    zoom: 1;
+}
+
+.companyMenu a {
+    border: 2px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    transition-duration: .2s;
+}
+
+.companyMenu .selecteda {
+	border: 2px solid #0004ff;
+	transform: scale(0.9);
+	z-index: 1;
+}
+
+.companyMenu a:hover {
+	border: 2px solid #aaa;
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+.companyMenu a img{
+    max-height: 30px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+/* Dropdown From w3 */
+
+.dropbtnflexContain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: left;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition-duration: .3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown {
+    position: relative;
+    margin: 10px 5px;
+}
+
+.dropdown-content {
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+    min-width: 170px;
+    max-width: 510px;
+    border-radius: 5px;
+    background-color: #f1ebeb;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    padding: 10px;
+
+}
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border: 2px solid rgb(225, 216, 216);
+    border-radius: 15px;
+}
+
+.dropdown-content a:hover { 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+    border: 2px solid #ce3749;
+}
+
+.dropdown-content .selected { 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+    border: 3px solid #ce3749; 
+}
+
+
+.dropdown-contents {
+    z-index: 1;
+    margin-top: 10px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f1ebeb;
+    /* mặc địng là xoay 90 độ => bị ẩn đi */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+
+}
+.dropdown-contents a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border: 2px solid rgb(225, 216, 216);
+    border-radius: 15px;
+}
+
+.dropdown-contents a:hover { 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+    border: 2px solid #ce3749;
+}
+
+.dropdown-contents .selected { 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+    border: 3px solid #ce3749; 
+}
+
+.column_Filter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    padding: 10px;
+}
+.column_Filter01 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    padding: 10px;
+    height:45px;
+}
+.column_Filter02 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    padding: 10px;
+    height:55px;
+}
+
+.column_Filter03 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    padding: 10px;
+    width: 150px;
+    height:55px;
+}
+.column_Filter04 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    padding: 10px;
+    width: 150px;
+    height:55px;
+}
+
+.column_Filter05 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    padding: 10px;
+    width: 170px;
+    height:160px;
+}
+.column_Filter05 a {
+    grid-column: span 3;
+}
+
+
+.dropdown-content-tinhnangsac {
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+    min-width: 170px;
+    max-width: 610px;
+    border-radius: 5px;
+    background-color: #f1ebeb;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    padding: 10px;
+    margin-left: -450px;
+
+}
+.dropdown-content-tinhnangsac a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border: 2px solid rgb(225, 216, 216);
+    border-radius: 15px;
+}
+
+.dropdown-content-tinhnangsac a:hover { 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+    border: 2px solid #ce3749;
+}
+
+.dropdown-content-tinhnangsac .selected { 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+    border: 3px solid #ce3749; 
+}
+
+.price-filter-range {
+    padding: 10px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    grid-column: span 3;
+    border: 2px solid rgb(225, 216, 216);
+}
+
+.TenBang_column{
+    grid-column: span 3;
+}
+
+.range-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.range-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dropbtnflexContain .arrow-filter {
+    width: 27px;
+    height: 14px;
+    top: 36px;
+    left: 25px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.dropbtnflexContain .arrow-filter {
+    height: 27px
+}
+
+.dropbtnflexContain .arrow-filter::before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background: #ffffff;
+    transform: rotate(45deg);
+    top: 10px;
+    left: 0;
+    box-shadow: -2px -2px 5px -4px
+}
+
+.Bochonloc {
+    background-color: rgb(228, 175, 175);
+    color: #ce3749;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition-duration: .3s;
+    grid-column: span 3;
+}
+
+.Xemchonloc {
+    background-color: #ce3749;
+    color: white;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition-duration: .3s;
+    grid-column: span 3;
+}
+/* ============== End From W3 ============== */
